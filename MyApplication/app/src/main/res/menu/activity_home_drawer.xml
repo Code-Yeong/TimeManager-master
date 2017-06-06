@@ -3,33 +3,41 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
+            android:id="@+id/nav_task"
             android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
+            android:title="任务管理" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/nav_note"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
+            android:title="备忘录" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/nav_category"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
+            android:title="类别管理" />
         <item
-            android:id="@+id/nav_manage"
+            android:id="@+id/nav_secure"
             android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
+            android:title="隐私安全" />
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="分享互动">
         <menu>
             <item
                 android:id="@+id/nav_share"
                 android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
+                android:title="分享给好友" />
             <item
                 android:id="@+id/nav_send"
                 android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                android:title="发送到朋友圈" />
+        </menu>
+    </item>
+    <item android:title="系统">
+        <menu>
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/ic_menu_share"
+                android:title="退出" />
         </menu>
     </item>
 
